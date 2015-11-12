@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:768,&quot;PAPER_HEIGHT&quot;:1024,&quot;PAPER_SCROLL_LEFT&quot;:2024,&quot;PAPER_SCROLL_TOP&quot;:1934,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout style-name="root-layout navigation-template-vaadin" responsive="true" size-full="true" _id="root_layout"> 
+   <vaadin-css-layout style-name="header-bar" width-full="true" _id="header_bar"> 
+    <vaadin-native-button icon="fonticon://FontAwesome/f015" plain-text="" _id="btnHome"></vaadin-native-button> 
+    <vaadin-label responsive="true" width="72%" plain-text="" _id="lblHome">
+      IBM SmartVaadin
+    </vaadin-label> 
+   </vaadin-css-layout> 
+   <vaadin-horizontal-layout style-name="main-area-layout" size-full="true" _id="main_area" :expand=""> 
+    <vaadin-css-layout style-name="side-bar" height-full="true" _id="side_bar"> 
+     <vaadin-native-button icon="fonticon://FontAwesome/f09d" style-name="menu-button selected" width-full="true" plain-text="" _id="mnuCustomers">
+       Customers 
+     </vaadin-native-button> 
+     <vaadin-native-button icon="fonticon://FontAwesome/f080" style-name="menu-button" width-full="true" plain-text="" _id="mnuDetails">
+       Ages 
+     </vaadin-native-button> 
+     <vaadin-native-button icon="fonticon://FontAwesome/f183" style-name="menu-button" width-full="true" plain-text="" _id="mnuSex">
+       Sex 
+     </vaadin-native-button> 
+     <vaadin-native-button icon="fonticon://FontAwesome/f0d6" style-name="menu-button" width-full="true" plain-text="" _id="mnuOther">
+       Income 
+     </vaadin-native-button> 
+     <vaadin-native-button icon="fonticon://FontAwesome/f08b" style-name="menu-button" width-full="true" plain-text="" _id="mnuLogout">
+       Logout 
+     </vaadin-native-button> 
+    </vaadin-css-layout> 
+    <vaadin-panel style-name="scroll-panel" size-full="true" _id="scroll_panel" :expand=""></vaadin-panel> 
+   </vaadin-horizontal-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>

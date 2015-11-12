@@ -1,0 +1,22 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+}
+
+.v-grid {
+  .v-grid-scroller, .v-grid-scroller-horizontal { }
+  .v-grid-tablewrapper {
+    .v-grid-header {
+      .v-grid-row {
+        color: darkblue;
+        font-weight: bold;
+      }
+    }
+  }
+}
